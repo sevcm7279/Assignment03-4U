@@ -1,0 +1,52 @@
+Question 1:
+
+Sequential Search
+- These are the elements in the array, with their positions shown below
+    23, 27, 30, 34, 41, 51, 55, 57, 60, 67, 72, 78, 83, 96
+   (00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13)
+
+- First, through a for loop, the program goes through each position in the array
+and checks the number stored in it.
+    23, 27, 30, 34, 41, 51, 55, 57, 60, 67, 72, 78, 83, 96
+    27, 30, 34, 41, 51, 55, 57, 60, 67, 72, 78, 83, 96
+    30, 34, 41, 51, 55, 57, 60, 67, 72, 78, 83, 96
+    34, 41, 51, 55, 57, 60, 67, 72, 78, 83, 96
+    41, 51, 55, 57, 60, 67, 72, 78, 83, 96
+
+- If the program finds the number we are trying to find (41), it returns the 
+numbers position in the array.
+    4
+
+Binary Search
+- These are the elements in the array
+    23, 27, 30, 34, 41, 51, 55, 57, 60, 67, 72, 78, 83, 96
+
+- The program calculates the middle number in the array by dividing the length
+the array by 2 to find its position
+    (14 / 2 = 7)
+    23, 27, 30, 34, 41, 51, 55, *57*, 60, 67, 72, 78, 83, 96
+   (00, 01, 02, 03, 04, 05, 06, *07*, 08, 09, 10, 11, 12, 13)
+
+- The center number is not the number in question, so the program continues on
+and checks if the number is larger or smaller that the center number, and it is
+smaller (41 < 57).
+
+- The program then looks to the left of the center number to search for 41 
+by repeating the same steps - finding the center number, determining if the
+number is less that the middle number or not, until the middle number becomes 41.
+    23, 27, 30, *34,* 41, 51, 55
+    41, *51,* 55
+    *41*
+- When it finds the number, it returns its position
+    4
+
+
+Question 2:
+
+Bubble Sort
+- These are th elements in the array
+    25  30  20  80  40  60
+
+
+    
+
