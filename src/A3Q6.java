@@ -16,11 +16,13 @@ public class A3Q6 {
      * @param n is the array
      */
     public void insertionSort(int[] n) {
+        // go through the array
         for (int i = 1; i < n.length; i++) {
-
+            // set variable j as the position in the array
             int j = i;
+            // while the position before is less than j, 
             while (j > 0 && n[j - 1] < n[j]) {
-
+                // switch the numbers
                 int temp = n[j];
                 n[j] = n[j - 1];
                 n[j - 1] = temp;
