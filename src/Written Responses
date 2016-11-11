@@ -87,4 +87,11 @@ Make the number we are searching for 77
 
 
 Question 4:
+Insertion sort is faster than selection sort for smaller groups of numbers,
+however with larger, more disgusting groups of numbers both sorting algorithms
+are basically equal in speed.
 
+Question 5:
+O(log n), or logarithmic time, is the fastest run time for an algorithm. This is 
+because it divides the array to find the number it is searching for rather than 
+searching every single elements in the array.
