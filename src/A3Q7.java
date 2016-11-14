@@ -7,7 +7,7 @@
  *
  * @author sevcm7279
  */
-public class A3Q1 {
+public class A3Q7 {
 
     /**
      * @param args the command line arguments
